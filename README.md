@@ -1,13 +1,14 @@
 # kanyoPDF
 
-PDF editor with merge and splti function.
-If you are working with pdfs with only those functions (like me :D) its a good option for you.
+PDF editor with merge and split function.
+If you are working with pdfs with only those functions its a good option for you.
 
 ## Requirements
 
 - Python 3.6 or higher
-- tkinter (usually included with Python)
+- tkinter
 - pypdf
+- ttkthemese
 
 ## Installation
 
