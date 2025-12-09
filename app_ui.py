@@ -211,7 +211,7 @@ class pdfApp:
         separator = tk.Frame(
             self.scrollable_frame,
             bg=self.colors['border'],
-            height=1
+            height=2
         )
         separator.pack(fill=tk.X, padx=20, pady=(5, 10))
 

@@ -27,6 +27,7 @@ def setup_theme(root):
         font=('Segoe UI', 9),
         rowheight=70
     )
+
     style.configure(
         "PDFTable.Treeview.Heading",
         background=colors['bg'],
@@ -60,8 +61,9 @@ def setup_theme(root):
     style.configure(
         "Range.TEntry",
         fieldbackground=colors['surface'],
-        borderwidth=1,
+        borderwidth=2,
         relief='solid'
     )
+    
 
     return colors
