@@ -36,7 +36,8 @@ def setup_theme(root):
         font=('Segoe UI', 9, 'bold'),
         relief='flat'
     )
-    style.map(
+    '''
+     style.map(
         "PDFTable.Treeview",
         background=[('selected', colors['primary'])],
         foreground=[('selected', '#FFFFFF')]
@@ -45,6 +46,7 @@ def setup_theme(root):
         "PDFTable.Treeview.Heading",
         background=[('active', colors['primary'])]
     )
+    '''
 
     # Configure Frame style
     style.configure(
@@ -56,7 +58,7 @@ def setup_theme(root):
         background=colors['surface']
     )
 
-
+    '''
     # Configure Entry style
     style.configure(
         "Range.TEntry",
@@ -64,6 +66,6 @@ def setup_theme(root):
         borderwidth=2,
         relief='solid'
     )
-    
+    '''
 
     return colors
