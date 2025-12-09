@@ -223,15 +223,6 @@ class pdfApp:
         row_frame = ttk.Frame(self.scrollable_frame, style="Surface.TFrame")
         row_frame.pack(fill=tk.X, padx=20, pady=2)
 
-        # Add subtle hover effect
-        def on_enter(e):
-            row_frame.config(style="Main.TFrame")
-
-        def on_leave(e):
-            row_frame.config(style="Surface.TFrame")
-
-        row_frame.bind('<Enter>', on_enter)
-        row_frame.bind('<Leave>', on_leave)
 
         # Index column (#)
         index_label = tk.Label(
